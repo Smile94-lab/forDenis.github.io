@@ -1,0 +1,108 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+body {
+
+}
+header {
+  font-family: 'Lobster', cursive;
+  height: 100%;
+  max-height: 600px;
+   background-image: url(img/upside.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header img {
+  width: 70px;
+}
+
+.time {
+  width: 100%;
+  max-width: 462px;
+  font-size: 48px;
+}
+.phone {
+  width: 100%;
+  max-width: 470px; 
+  text-align: center;
+}
+.logos {
+  width: 100%;
+  max-width: 150px;
+}
+
+.idleblock {
+  height: 1000px;
+  background-color: yellow;
+}
+.wrapper {
+height: 149px;
+  margin: auto;
+  width: 100%;
+display: flex;
+  align-items: center;
+  padding: 44px 70px 35px 70px;
+  justify-content: space-between;
+  position: fixed;
+  color: white;
+  font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+padding-top: 149px;
+display: flex;
+width: 100%;
+justify-content: space-around;
+}
+.container-image1 {
+  flex: 1 1 50%;
+}
+.container-image2 {
+ flex: 1 1 50%;
+}
+
+.container-image1 {
+  width: 100%;
+  max-width: 523px;
+  padding: 28px 52px 197px 79px;
+}
+.container-image2 {
+  width: 100%;
+  max-width: 396px;
+  padding: 28px 108px 44px 52px;
+}
