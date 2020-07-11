@@ -44,7 +44,7 @@ header {
   max-height: 600px;
    background-image: url(img/upside.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 header img {
   width: 70px;
@@ -70,7 +70,7 @@ header img {
   background-color: yellow;
 }
 .wrapper {
-height: 149px;
+height: 200px;
   margin: auto;
   width: 100%;
 display: flex;
@@ -84,25 +84,115 @@ display: flex;
 }
 
 .container {
-padding-top: 149px;
+width: 80%;
+margin: auto;
+padding-top: 250px;
 display: flex;
-width: 100%;
 justify-content: space-around;
-}
-.container-image1 {
-  flex: 1 1 50%;
-}
-.container-image2 {
- flex: 1 1 50%;
+align-items: center;
 }
 
-.container-image1 {
-  width: 100%;
-  max-width: 523px;
-  padding: 28px 52px 197px 79px;
+.body-image {
+  text-align: center;
+font-size: 50px;
+flex: 0 1 50%;
+text-shadow: 3px 4px 14px rgba(0, 0, 0, 0.75);
+color: #000000;
+font-family: Pacifico;
 }
+
 .container-image2 {
-  width: 100%;
-  max-width: 396px;
-  padding: 28px 108px 44px 52px;
+min-width: 445px;
+}
+
+.special {
+font-family: 'Monoton', cursive;
+text-decoration: underline;
+font-size: 154px;
+text-shadow: 1px 1px 12px #faa206;
+color: #000000;
+font-variant: small-caps;
+padding-bottom: 5px;
+}
+.gallery{
+  height: 960px;
+  background-image: url(img/bgnet2.png);
+/*  background-size: 100% auto;*/
+background-repeat: round;
+} 
+.gallery-container {
+  margin: 0 auto;
+  padding-top: 80px;
+  width: 78%;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-big {
+/*width: 42.45%;*/
+  flex:0 0 636px;
+background-image: url(img/menu1.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.bonus {
+  flex:0 0 640px;
+/*width: 42.72%;*/
+}
+.menu-big p{
+  padding-top: 31.35%;
+color: #faa206;
+text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.75);
+font-family: Lobster;
+font-size: 130px;
+font-weight: 400;
+text-decoration: underline;
+font-variant: small-caps;
+text-align: center;
+}
+.menu-big a {
+  color: #faa206;
+  text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.75);
+}
+
+.smokevideo {
+  position: relative;
+  height: 960px;
+  z-index: -1;
+}
+.smoke-container {
+  z-index: 1;
+  position: relative;
+  padding-top: 159px;
+  width: 87.19%;
+  display: flex;
+  justify-content: space-between;
+}
+.interactive {
+  flex: 1 0 800px;
+}
+.customers {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 737px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.customers-item1 {
+  flex: 1 1 auto;
+  text-align: center;
+  font-size: 55px;
+text-shadow: 0px 0px 10px #d68d0b;
+color: #050505;
+font-family: Lobster;
+}
+.customers-item2 {
+padding-top: 20px;
+ font-family: "Times New Roman PS - Bold MT";
+font-size: 40px;
+color:#ffffff;;
+}
+video {
+  position: absolute;
+  z-index: -1
 }
